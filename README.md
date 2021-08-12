@@ -5,8 +5,7 @@ In this notebook, you'll be using [VGGNet](https://arxiv.org/pdf/1409.1556.pdf) 
 <img src="notebook_ims/vgg_16_architecture.png" width=700px>
 
 VGGNet is great because it's simple and has great performance, coming in second in the ImageNet competition. The idea here is that we keep all the convolutional layers, but **replace the final fully-connected layer** with our own classifier. This way we can use VGGNet as a _fixed feature extractor_ for our images then easily train a simple classifier on top of that. 
-* Use all but the last fully-connected layer as a fixed feature extractor.
-* Define a new, final classification layer and apply it to a task of our choice!
+
 
 You can read more about transfer learning from [the CS231n Stanford course notes](http://cs231n.github.io/transfer-learning/).
 
