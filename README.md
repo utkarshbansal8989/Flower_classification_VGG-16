@@ -52,3 +52,4 @@ Then Training and testing has been done.
 
 
 # Results
+<img src="https://github.com/utkarshbansal8989/Flower_classification_VGG-16/blob/main/notebook_ims/Screenshot%202021-08-12%20200429.png" width=700px>
